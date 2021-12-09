@@ -181,3 +181,4 @@ bar {
 for_window [class="^.*"] border pixel 1
 
 exec_always picom
+exec_always lxqt-session
