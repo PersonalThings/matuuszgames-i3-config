@@ -182,3 +182,11 @@ for_window [class="^.*"] border pixel 1
 
 exec_always picom
 exec_always lxqt-session
+
+gaps inner all set 20
+gaps outer current plus 5
+gaps horizontal current plus 40
+gaps outer current toggle 60
+
+# Hide edge borders only if there is one window with no gaps
+hide_edge_borders smart_no_gaps
